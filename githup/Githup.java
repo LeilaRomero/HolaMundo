@@ -15,7 +15,11 @@ public class Githup {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
+        // error y prueba
+        Scanner sc= new Scanner (System.in);
+        System.out.println("Teclea un radio: ");
+        float radio =sc.nextFloat();
+        System.out.println("longitud = "+ (2*Math.PI*radio));   
     }
     
 }
